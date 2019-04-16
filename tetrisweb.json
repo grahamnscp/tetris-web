@@ -19,10 +19,10 @@
     "volumes": [],
     "portMappings": [
       {
-        "containerPort": 8080,
-        "hostPort": 0,
+        "containerPort": 80,
+        "hostPort": 8086,
         "labels": {
-          "VIP_0": "/teris-web:8086"
+          "VIP_0": "/tetrisweb:8086"
         },
         "name": "tetrisweb",
         "protocol": "tcp",
